@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人主页 - 你的名字</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      background: #f4f6fa;
+      color: #333;
+    }
+    header {
+      background-color: #455a64;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-bottom: 15px;
+      background: #e0e0e0;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 8px;
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    section {
+      margin-bottom: 28px;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill-badge {
+      background: #90caf9;
+      color: #29434e;
+      border-radius: 16px;
+      padding: 6px 18px;
+      font-size: 15px;
+      display: inline-block;
+    }
+    .contact a {
+      color: #039be5;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      main { padding: 16px; }
+      header { padding: 24px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/your_github_id?v=4" alt="头像">
+    <h1>SHEN XINYU</h1>
+    <p>一句简短的自我介绍：相机硬件工程师 | AI爱好者 | 生活探索者</p>
+  </header>
+  <main>
+    <section>
+      <h2>关于我</h2>
+      <p>
+        这里写几句话介绍你的专业背景、兴趣和正在做的事情。<br>
+        例如：“你好！我是一名热爱编程和技术创新的开发者。目前专注于Web开发和人工智能方向。”
+      </p>
+    </section>
+
+    <section>
+      <h2>技能</h2>
+      <div class="skills">
+        <span class="skill-badge">HTML</span>
+        <span class="skill-badge">CSS</span>
+        <span class="skill-badge">JavaScript</span>
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">Vue.js</span>
+        <span class="skill-badge">Git</span>
+        <!-- 添加或删除技能 -->
+      </div>
+    </section>
+
+    <section>
+      <h2>联系我</h2>
+      <p class="contact">
+        📮 邮箱：<a href="mailto:your@email.com">your@email.com</a
